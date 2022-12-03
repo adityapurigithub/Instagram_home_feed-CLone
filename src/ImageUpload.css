@@ -1,0 +1,29 @@
+.imageUpload {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.imageUpload progress {
+  width: 100%;
+}
+.imageUpload input[type="text"] {
+  padding: 8px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.imageUpload input[type="text"]:focus {
+  border: 1px solid blueviolet;
+}
+.imageUpload input[type="file"] {
+  margin: 10px;
+}

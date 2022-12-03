@@ -1,0 +1,52 @@
+.post {
+  max-width: 600px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.post__image {
+  width: 100%;
+  object-fit: contain; /* it means that it wil fit to screen with its 100% width */
+}
+.post__text {
+  font-weight: normal;
+}
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.post__avatar {
+  margin-right: 10px;
+}
+.post__text {
+  padding: 10px;
+}
+.post__commentBox {
+  display: flex;
+  margin: 10px;
+}
+.post__input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.post__button {
+  padding: 5px 20px;
+}
+.post__comments {
+  padding: 10px;
+}
+.post__comments h5 {
+  color: gray;
+  margin-bottom: 5px;
+}
+.post__comments p {
+  margin: 2px;
+}
+.post__like {
+  height: 20px;
+}
